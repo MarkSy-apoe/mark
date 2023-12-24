@@ -38,7 +38,7 @@ export default function RootLayout({
           </div>
 
           <div className='w-2/6 md:w-1/6 flex items-center justify-center'>
-            <button className='w-32 hidden h-12 sm:inline md:text-md text-black font-semibold border-2 border-black bg-purple-400 rounded-md hover:bg-purple-600 hover:shadow-none nbutton'>Download CV</button>
+            <button className='w-32 hidden h-12 md:inline md:text-md text-black font-semibold border-2 border-black bg-purple-400 rounded-md hover:bg-purple-600 hover:shadow-none nbutton'>Download CV</button>
             
             <svg className="w-6 h-6 cursor-pointer md:hidden ml-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14" id='togglebutton'>
               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
@@ -47,8 +47,8 @@ export default function RootLayout({
           </div>
          
         </nav>
-        <div className='mt-24 fixed inline'>
-          <div className='ml-12 mt-4 w-full h-0 gap-4 grid grid-cols-1 text-black overflow-hidden' id='navmobile' style={{transition: 0.3 + 's'}}>
+        <div className='mt-24 fixed inline md:hidden'>
+          <div className='ml-12 mt-4 w-full h-0 gap-4 grid grid-cols-1 md:hidden text-black overflow-hidden' id='navmobile' style={{transition: 0.3 + 's'}}>
             <p className='hover:text-purple-800 cursor-pointer'>Home</p>
             <p className='hover:text-purple-800 cursor-pointer'>About</p>
             <p className='hover:text-purple-800 cursor-pointer'>Projects</p>
@@ -56,7 +56,7 @@ export default function RootLayout({
             <button className='w-32 h-12 text-black font-semibold border-2 border-black bg-purple-400 rounded-md  hover:bg-purple-600 hover:shadow-none nbutton'>Download CV</button>
           </div>
         </div>
-        <Script type='text/javascript' src='_next/static/scripts/nav.js'></Script>
+        <Script type='text/javascript' src='/_next/static/js/nav.js'></Script>
         
         {children}
       </body>
