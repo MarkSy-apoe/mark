@@ -5,3 +5,28 @@
 .nbutton{
     box-shadow: 7px 5px rgb(50, 50, 50);
 }
+
+.ncard{
+  box-shadow: 10px 10px rgb(50, 50, 50);
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #c084fc;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #6b21a8;
+  }
