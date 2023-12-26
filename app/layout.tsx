@@ -32,7 +32,7 @@ export default function RootLayout({
             
             <Link href='/'><p className='hover:text-purple-800 cursor-pointer hidden md:inline'>Home</p></Link>
             <Link href='/#about'><p className='pl-8 hover:text-purple-800 cursor-pointer hidden md:inline'>About</p></Link>
-            <Link href='/#projects'><p className='pl-8 hover:text-purple-800 cursor-pointer hidden md:inline'>Projects</p></Link>
+            <Link href='https://github.com/KarmaCyberWarrior'><p className='pl-8 hover:text-purple-800 cursor-pointer hidden md:inline'>Projects</p></Link>
             <Link href='/skills'><p className='pl-8 hover:text-purple-800 cursor-pointer hidden md:inline'>Skills</p></Link>
 
           </div>
@@ -51,7 +51,7 @@ export default function RootLayout({
           <div className='pl-12 w-full h-0 gap-4 bg-white grid grid-cols-1 backdrop-filter backdrop-blur-lg bg-opacity-20 text-black overflow-hidden' id='navmobile' style={{transition: 0.3 + 's'}}>
             <Link href='/'><p className='hover:text-purple-800 cursor-pointer'>Home</p></Link>
             <Link href='/#about'><p className='hover:text-purple-800 cursor-pointer'>About</p></Link>
-            <Link href='/#projects'><p className='hover:text-purple-800 cursor-pointer'>Projects</p></Link>
+            <Link href='https://github.com/KarmaCyberWarrior'><p className='hover:text-purple-800 cursor-pointer'>Projects</p></Link>
             <Link href='/skills'><p className='hover:text-purple-800 cursor-pointer'>Skills</p></Link>
             <Link href='/resume.pdf'>
               <button className='w-32 h-12 text-black font-semibold border-2 border-black bg-purple-400 rounded-md  hover:bg-purple-600 hover:shadow-none nbutton'>Download CV</button>
