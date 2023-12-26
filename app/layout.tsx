@@ -32,13 +32,13 @@ export default function RootLayout({
             
             <Link href='/#home'><p className='hover:text-purple-800 dark:hover:text-purple-300 cursor-pointer hidden md:inline'>Home</p></Link>
             <Link href='/#about'><p className='pl-8 hover:text-purple-800 dark:hover:text-purple-300 cursor-pointer hidden md:inline'>About</p></Link>
-            <p className='pl-8 hover:text-purple-800 dark:hover:text-purple-300 cursor-pointer hidden md:inline'>Projects</p>
-            <p className='pl-8 hover:text-purple-800 dark:hover:text-purple-300 cursor-pointer hidden md:inline'>Blog</p>
+            <Link href='/#projects'><p className='pl-8 hover:text-purple-800 dark:hover:text-purple-300 cursor-pointer hidden md:inline'>Projects</p></Link>
+            <p className='pl-8 hover:text-purple-800 dark:hover:text-purple-300 cursor-pointer hidden md:inline'>Skills</p>
 
           </div>
 
           <div className='w-2/6 md:w-1/6 flex items-center justify-center'>
-            <button className='w-32 hidden h-12 md:inline md:text-md text-black dark:text-white font-semibold border-2 border-black bg-purple-400 rounded-md hover:bg-purple-600 dark:hover:bg-purple-500 hover:shadow-none nbutton'>Download CV</button>
+          <Link href='/resume.pdf'><button className='w-32 hidden h-12 md:inline md:text-md text-black dark:text-white font-semibold border-2 border-black bg-purple-400 rounded-md hover:bg-purple-600 dark:hover:bg-purple-500 hover:shadow-none nbutton'>Download CV</button></Link>
             
             <svg className="w-6 h-6 cursor-pointer text-black dark:text-white md:hidden ml-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14" id='togglebutton'>
               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
@@ -52,10 +52,12 @@ export default function RootLayout({
             <p className='hover:text-purple-800 dark:hover:text-purple-300 cursor-pointer'>Home</p>
             <p className='hover:text-purple-800 dark:hover:text-purple-300 cursor-pointer'>About</p>
             <p className='hover:text-purple-800 dark:hover:text-purple-300 cursor-pointer'>Projects</p>
-            <p className='hover:text-purple-800 dark:hover:text-purple-300 cursor-pointer'>Blog</p>
-            <button className='w-32 h-12 text-black dark:text-white font-semibold border-2 border-black bg-purple-400 rounded-md  hover:bg-purple-600 dark:hover:bg-purple-500 hover:shadow-none nbutton'>Download CV</button>
+            <p className='hover:text-purple-800 dark:hover:text-purple-300 cursor-pointer'>Skills</p>
+            <Link href='/resume.pdf'>
+              <button className='w-32 h-12 text-black dark:text-white font-semibold border-2 border-black bg-purple-400 rounded-md  hover:bg-purple-600 dark:hover:bg-purple-500 hover:shadow-none nbutton'>Download CV</button>
+            </Link>
           </div>
-          <Script type='text/javascript' src='/_next/static/js/nav.js'></Script>
+          <Script type='text/javascript' src='https://somejs-dusky.vercel.app/nav.js'></Script>
         </div>
         
         <br></br>
