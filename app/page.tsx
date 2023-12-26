@@ -63,7 +63,7 @@ export default function Home() {
 My digital canvas extends beyond coding, as I find joy in crafting captivating digital art that mirrors my imaginative spirit. When not immersed in lines of code, you&apos;ll likely find me strategizing and engaging in intense battles in TCG games like <span className='text-xl font-semibold'>Yu-Gi-Oh</span>—a realm where strategy and creativity converge.<br></br><br></br>
 
 In the ever-evolving landscape of technology, I am driven by a relentless curiosity and a passion for continuous learning. Join me on this journey where the digital meets the creative, and together, we&apos;ll build immersive and innovative experiences.</p>
-<Link href='/#about'><button className='mt-8 w-52 h-16 bg-purple-400 border-2 border-black rounded-md text-black font-semibold nbutton hover:bg-purple-600 hover:shadow-none text-xl'>My Skillset</button></Link>
+<Link href='/skills'><button className='mt-8 w-52 h-16 bg-purple-400 border-2 border-black rounded-md text-black font-semibold nbutton hover:bg-purple-600 hover:shadow-none text-xl'>My Skillset</button></Link>
         </div>
       </div>
       <br></br><br></br>
