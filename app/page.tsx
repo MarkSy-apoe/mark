@@ -7,7 +7,7 @@ export default function Home() {
       <div className='grid xl:grid-cols-2 gap-[23rem]' id='home'>
         <div>
           <h1 className='text-xl md:text-4xl font-semibold' id='typewrite'></h1>
-          <p className='mt-8 text-lg md:text-xl md:font-semibold'>Hello, i'm Mark Sy-apoe.<br></br>I'm a certified penetration tester and a fullstack web developer.</p>
+          <p className='mt-8 text-lg md:text-xl md:font-semibold'>Hello, i&apos;m Mark Sy-apoe.<br></br>I&apos;m a certified penetration tester and a fullstack web developer.</p>
           <div className='grid grid-cols-1 sm:grid-cols-2 w-[17rem] sm:w-[41rem] md:w-[45rem] mt-8 font-semibold gap-5'>
             <div className='w-[17rem] sm:w-[18rem] md:w-[20rem] break-words md:text-xl text-lg'>
               <p>A skilled software developer with 5yrs+ experience, with a great affinity for security and secure coding.</p>
@@ -58,11 +58,11 @@ export default function Home() {
           <div className='w-32 h-12 bg-purple-400 flex items-center justify-center nbutton mt-4'>
             <h1 className='text-2xl font-semibold'>About Me</h1>
           </div>
-          <p className='mt-4 text-lg'>Welcome to my digital realm! I'm Mark, a passionate <span className='text-xl font-semibold'>Fullstack Web Developer</span> with a knack for seamlessly blending creativity and technical expertise.<br></br><br></br> Currently navigating the final level of my <span className='text-xl font-semibold'>Information and Management Technology</span> journey at university, I've honed my skills in crafting robust web solutions, delving into network administration, and exploring the intricate world of <span className='text-xl font-semibold'>penetration testing.</span><br></br><br></br>
+          <p className='mt-4 text-lg'>Welcome to my digital realm! I&apos;m Mark, a passionate <span className='text-xl font-semibold'>Fullstack Web Developer</span> with a knack for seamlessly blending creativity and technical expertise.<br></br><br></br> Currently navigating the final level of my <span className='text-xl font-semibold'>Information and Management Technology</span> journey at university, I&apos;ve honed my skills in crafting robust web solutions, delving into network administration, and exploring the intricate world of <span className='text-xl font-semibold'>penetration testing.</span><br></br><br></br>
 
-My digital canvas extends beyond coding, as I find joy in crafting captivating digital art that mirrors my imaginative spirit. When not immersed in lines of code, you'll likely find me strategizing and engaging in intense battles in TCG games like <span className='text-xl font-semibold'>Yu-Gi-Oh</span>—a realm where strategy and creativity converge.<br></br><br></br>
+My digital canvas extends beyond coding, as I find joy in crafting captivating digital art that mirrors my imaginative spirit. When not immersed in lines of code, you&apos;ll likely find me strategizing and engaging in intense battles in TCG games like <span className='text-xl font-semibold'>Yu-Gi-Oh</span>—a realm where strategy and creativity converge.<br></br><br></br>
 
-In the ever-evolving landscape of technology, I am driven by a relentless curiosity and a passion for continuous learning. Join me on this journey where the digital meets the creative, and together, we'll build immersive and innovative experiences.</p>
+In the ever-evolving landscape of technology, I am driven by a relentless curiosity and a passion for continuous learning. Join me on this journey where the digital meets the creative, and together, we&apos;ll build immersive and innovative experiences.</p>
 <Link href='/#about'><button className='mt-8 w-52 h-16 bg-purple-400 border-2 border-black rounded-md text-black dark:text-white font-semibold nbutton hover:bg-purple-600 dark:hover:bg-purple-500 hover:shadow-none text-xl'>My Skillset</button></Link>
         </div>
       </div>
