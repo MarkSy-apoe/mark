@@ -6,7 +6,7 @@ export default function Home() {
     <main className='mt-44 ml-6 md:ml-12 text-neutral-800' id='content' style={{transition: 0.3 + 's'}}>
       <div className='grid xl:grid-cols-2 gap-[23rem]' id='home'>
         <div>
-          <h1 className='text-xl md:text-4xl font-semibold' id='typewrite'></h1>
+          <h1 className='text-xl md:text-4xl font-semibold'>Certified Penetration Tester.</h1>
           <p className='mt-8 text-lg md:text-xl md:font-semibold'>Hello, i&apos;m Mark Sy-apoe.<br></br>I&apos;m a certified penetration tester and a fullstack web developer.</p>
           <div className='grid grid-cols-1 sm:grid-cols-2 w-[17rem] sm:w-[41rem] md:w-[45rem] mt-8 font-semibold gap-5'>
             <div className='w-[17rem] sm:w-[18rem] md:w-[20rem] break-words md:text-xl text-lg'>
