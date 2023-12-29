@@ -24,7 +24,7 @@ export default function Skills() {
             </div>
         </div>
 
-        <div className='grid justify-items-center ml-1/4 xl:grid-cols-3 mt-36 gap-8'>
+        <div className='grid justify-items-center xl:grid-cols-3 mt-36 gap-8'>
             <div className='w-[15rem] sm:w-[20rem] md:w-[25rem] h-[20rem] border border-black rounded-md break-words px-4 font-semibold group cursor-pointer hover:text-white hover:bg-purple-700'>
                 <h1 className='ml-8 mt-12 text-xl lg:text-3xl'>HTML</h1>
                 <p className='mt-12 text-lg lg:text-xl'>Foundation of web development.<br></br>
