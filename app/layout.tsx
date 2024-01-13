@@ -23,7 +23,7 @@ export default function RootLayout({
     <html lang="en">      
       
       <body className='bg-white'>
-        
+        <Navcomponent />
         
         <br></br>
         
