@@ -41,7 +41,7 @@ const NavComponent = () => {
             <Link href='https://github.com/KarmaCyberWarrior'><p className='hover:text-purple-800 cursor-pointer mt-8' onClick={closeButton}>Projects</p></Link>
             <Link href='/skills'><p className='hover:text-purple-800 cursor-pointer mt-8' onClick={closeButton}>Skills</p></Link>
             <Link href='/resume.pdf'>
-              <button className='inline-block h-12 p-4 text-black font-semibold border-2 mt-8 border-black bg-purple-400 rounded-md  hover:bg-purple-600 hover:shadow-none nbutton'>Download CV</button>
+              <button className='inline-block h-12 px-4 text-black font-semibold border-2 mt-8 border-black bg-purple-400 rounded-md  hover:bg-purple-600 hover:shadow-none nbutton'>Download CV</button>
             </Link>
         </div>
         </div>
