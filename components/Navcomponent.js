@@ -25,7 +25,7 @@ const NavComponent = () => {
                 <Link href='/#about'><p className='pl-8 hover:text-purple-800 cursor-pointer hidden md:inline'>About</p></Link>
                 <Link href='https://github.com/KarmaCyberWarrior'><p className='pl-8 hover:text-purple-800 cursor-pointer hidden md:inline'>Projects</p></Link>
                 <Link href='/skills'><p className='pl-8 hover:text-purple-800 cursor-pointer hidden md:inline'>Skills</p></Link>
-                <Link href='/resume.pdf'><button className='w-32 pl-8 hidden h-12 md:inline md:text-md text-black font-semibold border-2 border-black bg-purple-400 rounded-md hover:bg-purple-600 hover:shadow-none nbutton'>Download CV</button></Link>
+                <Link href='/resume.pdf'><button className='w-32 ml-8 hidden h-12 md:inline md:text-md text-black font-semibold border-2 border-black bg-purple-400 rounded-md hover:bg-purple-600 hover:shadow-none nbutton'>Download CV</button></Link>
             </div>
 
             <svg className="w-6 h-6 lg:hidden cursor-pointer text-black" onClick={handleButtonClick} aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14" id='togglebutton'>
@@ -41,7 +41,7 @@ const NavComponent = () => {
             <Link href='https://github.com/KarmaCyberWarrior'><p className='hover:text-purple-800 cursor-pointer mt-8' onClick={closeButton}>Projects</p></Link>
             <Link href='/skills'><p className='hover:text-purple-800 cursor-pointer mt-8' onClick={closeButton}>Skills</p></Link>
             <Link href='/resume.pdf'>
-              <button className='inline-block h-12 text-black font-semibold border-2 mt-8 border-black bg-purple-400 rounded-md  hover:bg-purple-600 hover:shadow-none nbutton'>Download CV</button>
+              <button className='inline-block h-12 p-4 text-black font-semibold border-2 mt-8 border-black bg-purple-400 rounded-md  hover:bg-purple-600 hover:shadow-none nbutton'>Download CV</button>
             </Link>
         </div>
         </div>
