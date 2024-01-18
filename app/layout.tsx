@@ -12,6 +12,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Mark Sy-apoe || Certified Penetration Tester',
   description: 'Mark: The origin. Certified with compTIA pentest+.',
+  metadataBase: new URL("https://markportfolio.vercel.app/"),
 }
 
 export default function RootLayout({
