@@ -23,7 +23,7 @@ const NavComponent = () => {
             <div className='md:w-4/6 -ml-8 hidden lg:flex flex-row justify-center items-center text-black text-lg'>
                 <Link href='/'><p className='hover:text-purple-800 cursor-pointer hidden md:inline'>Home</p></Link>
                 <Link href='/#about'><p className='pl-8 hover:text-purple-800 cursor-pointer hidden md:inline'>About</p></Link>
-                <Link href='https://github.com/KarmaCyberWarrior'><p className='pl-8 hover:text-purple-800 cursor-pointer hidden md:inline'>Projects</p></Link>
+                <Link href='https://github.com/MarkSyapoe'><p className='pl-8 hover:text-purple-800 cursor-pointer hidden md:inline'>Projects</p></Link>
                 <Link href='/skills'><p className='pl-8 hover:text-purple-800 cursor-pointer hidden md:inline'>Skills</p></Link>
                 <Link href='/resume.pdf'><button className='w-32 ml-8 hidden h-12 md:inline md:text-md text-black font-semibold border-2 border-black bg-purple-400 rounded-md hover:bg-purple-600 hover:shadow-none nbutton'>Download CV</button></Link>
             </div>
